@@ -1,7 +1,7 @@
 import pygame
 
 pygame.init()
-screenSize = [1920, 720]
+screenSize = [720, 720]
 screen = pygame.display.set_mode(screenSize)
 color = pygame.Color(0, 0, 255)
 clock = pygame.time.Clock()

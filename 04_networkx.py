@@ -15,7 +15,7 @@ G.add_edge(2, 3, weight=5, color="black")
 G.add_edge(2, 4, weight=10, color="black")
 G.add_edge(3, 5, weight=3, color="blue")
 G.add_edge(5, 4, weight=4, color="blue")
-G.add_edge(5, 6, weight=11, color="blue")
+G.add_edge(4, 6, weight=11, color="blue")
 
 pos = nx.bfs_layout(G, 1, align="vertical")
 
